@@ -114,9 +114,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/cir.img:/system/etc/cir.img \
-    $(LOCAL_PATH)/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
-    $(LOCAL_PATH)/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
-    $(LOCAL_PATH)/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
     $(LOCAL_PATH)/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/vidc.b00:/system/etc/firmware/vidc.b00 \
@@ -152,6 +149,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/usr/keylayout/projector-Keypad.kl:system/usr/keylayout/projector-Keypad.kl \
     $(LOCAL_PATH)/proprietary/usr/keylayout/synaptics-rmi-touchscreen.kl:system/usr/keylayout/synaptics-rmi-touchscreen.kl
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/mfg.bin:/system/vendor/firmware/mfg.bin
