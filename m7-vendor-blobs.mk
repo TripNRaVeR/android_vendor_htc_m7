@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8960.so:/system/lib/hw/camera.msm8960.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.m7.so:/system/lib/hw/sensors.m7.so \
     $(LOCAL_PATH)/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
+    $(LOCAL_PATH)/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
     $(LOCAL_PATH)/proprietary/lib/libcsd-client.so:/system/lib/libcsd-client.so \
     $(LOCAL_PATH)/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
     $(LOCAL_PATH)/proprietary/lib/libcameraasd.so:/system/lib/libcameraasd.so \
@@ -105,6 +106,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     $(LOCAL_PATH)/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
     $(LOCAL_PATH)/proprietary/lib/libqmi_client_qmux.so:/system/lib/libqmi_client_qmux.so \
+    $(LOCAL_PATH)/proprietary/lib/libqmi_common_so.so:/system/lib/libqmi_common_so.so \
+    $(LOCAL_PATH)/proprietary/lib/libqmi_cci.so:/system/lib/libqmi_cci.so \
     $(LOCAL_PATH)/proprietary/lib/libqmi_csi.so:/system/lib/libqmi_csi.so \
     $(LOCAL_PATH)/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
     $(LOCAL_PATH)/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
