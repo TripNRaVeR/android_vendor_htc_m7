@@ -26,8 +26,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/netmgrd:/system/bin/netmgrd \
     $(LOCAL_PATH)/proprietary/bin/qcks:/system/bin/qcks \
     $(LOCAL_PATH)/proprietary/bin/qmuxd:/system/bin/qmuxd \
-    $(LOCAL_PATH)/proprietary/bin/thermald:/system/bin/thermald \
-    $(LOCAL_PATH)/proprietary/bin/zchgd:/system/bin/zchgd
+    $(LOCAL_PATH)/proprietary/bin/thermald:/system/bin/thermald
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
@@ -35,7 +34,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     $(LOCAL_PATH)/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     $(LOCAL_PATH)/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
-    $(LOCAL_PATH)/proprietary/lib/egl/libplayback_adreno200.so:/system/lib/egl/libplayback_adreno200.so \
     $(LOCAL_PATH)/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8960.so:/system/lib/hw/camera.msm8960.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.m7.so:/system/lib/hw/sensors.m7.so \
@@ -46,7 +44,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libcameraasd.so:/system/lib/libcameraasd.so \
     $(LOCAL_PATH)/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
     $(LOCAL_PATH)/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
-    $(LOCAL_PATH)/proprietary/lib/libcam_oem_plugin.so:/system/lib/libcam_oem_plugin.so \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_ov2722_default_video.so:/system/lib/libchromatix_ov2722_default_video.so \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_ov2722_hdr.so:/system/lib/libchromatix_ov2722_hdr.so \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_ov2722_preview.so:/system/lib/libchromatix_ov2722_preview.so \
@@ -84,7 +81,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
     $(LOCAL_PATH)/proprietary/lib/libmpl_jni.so:/system/lib/libmpl_jni.so \
     $(LOCAL_PATH)/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
-    $(LOCAL_PATH)/proprietary/lib/libOlaEngineNew.so:/system/lib/libOlaEngineNew.so \
     $(LOCAL_PATH)/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     $(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
     $(LOCAL_PATH)/proprietary/lib/libc2d2_a3xx.so:/system/lib/libc2d2_a3xx.so \
@@ -126,7 +122,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/vidc.b03:/system/etc/firmware/vidc.b03 \
     $(LOCAL_PATH)/proprietary/etc/firmware/vidc.mdt:/system/etc/firmware/vidc.mdt \
     $(LOCAL_PATH)/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
-    $(LOCAL_PATH)/proprietary/etc/firmware/vidcfw.elf:/system/etc/firmware/vidcfw.elf \
     $(LOCAL_PATH)/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
     $(LOCAL_PATH)/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
     $(LOCAL_PATH)/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
