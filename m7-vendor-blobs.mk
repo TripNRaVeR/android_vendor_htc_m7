@@ -122,6 +122,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/vidc.b03:/system/etc/firmware/vidc.b03 \
     $(LOCAL_PATH)/proprietary/etc/firmware/vidc.mdt:/system/etc/firmware/vidc.mdt \
     $(LOCAL_PATH)/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
+    $(LOCAL_PATH)/proprietary/etc/firmware/vidcfw.elf:/system/etc/firmware/vidcfw.elf \
     $(LOCAL_PATH)/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
     $(LOCAL_PATH)/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
     $(LOCAL_PATH)/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
