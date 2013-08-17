@@ -84,13 +84,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     $(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
     $(LOCAL_PATH)/proprietary/lib/libc2d2_a3xx.so:/system/lib/libc2d2_a3xx.so \
-    $(LOCAL_PATH)/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
     $(LOCAL_PATH)/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     $(LOCAL_PATH)/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     $(LOCAL_PATH)/proprietary/lib/libllvm-a3xx.so:/system/lib/libllvm-a3xx.so \
     $(LOCAL_PATH)/proprietary/lib/libOpenCL.so:/system/lib/libOpenCL.so \
     $(LOCAL_PATH)/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-    $(LOCAL_PATH)/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     $(LOCAL_PATH)/proprietary/lib/libsc-a3xx.so:/system/lib/libsc-a3xx.so \
     $(LOCAL_PATH)/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     $(LOCAL_PATH)/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
