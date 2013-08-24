@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/akmd:/system/bin/akmd \
     $(LOCAL_PATH)/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
-    $(LOCAL_PATH)/proprietary/bin/charging:/system/bin/charging \
     $(LOCAL_PATH)/proprietary/bin/efsks:/system/bin/efsks \
     $(LOCAL_PATH)/proprietary/bin/ks:/system/bin/ks \
     $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
