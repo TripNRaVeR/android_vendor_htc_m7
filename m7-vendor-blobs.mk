@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/akmd:/system/bin/akmd \
-    $(LOCAL_PATH)/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
     $(LOCAL_PATH)/proprietary/bin/efsks:/system/bin/efsks \
     $(LOCAL_PATH)/proprietary/bin/ks:/system/bin/ks \
     $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
@@ -112,7 +111,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libwriteback.so:/system/lib/libwriteback.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/etc/cir.img:/system/etc/cir.img \
     $(LOCAL_PATH)/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/vidc.b00:/system/etc/firmware/vidc.b00 \
