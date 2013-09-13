@@ -131,7 +131,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/tzapps.b02:/system/etc/firmware/tzapps.b02 \
     $(LOCAL_PATH)/proprietary/etc/firmware/tzapps.b03:/system/etc/firmware/tzapps.b03 \
     $(LOCAL_PATH)/proprietary/etc/firmware/tzapps.mdt:/system/etc/firmware/tzapps.mdt \
-    $(LOCAL_PATH)/proprietary/etc/firmware/BCM4335B0_002.001.006.0092.0093.hcd:/system/etc/firmware/BCM4335B0_002.001.006.0092.0093.hcd \
+    $(LOCAL_PATH)/proprietary/etc/firmware/BCM4335B0_002.001.006.0233.0236.hcd:/system/etc/firmware/BCM4335B0_002.001.006.0233.0236.hcd \
     $(LOCAL_PATH)/proprietary/etc/firmware/fw_bcm4335_apsta_b0.bin:/system/etc/firmware/fw_bcm4335_apsta_b0.bin \
     $(LOCAL_PATH)/proprietary/etc/firmware/fw_bcm4335_b0.bin:/system/etc/firmware/fw_bcm4335_b0.bin \
     $(LOCAL_PATH)/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:/system/etc/firmware/fw_bcm4335_p2p_b0.bin \
