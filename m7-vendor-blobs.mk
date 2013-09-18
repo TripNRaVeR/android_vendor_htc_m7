@@ -27,13 +27,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/thermald:/system/bin/thermald
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-    $(LOCAL_PATH)/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    $(LOCAL_PATH)/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    $(LOCAL_PATH)/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    $(LOCAL_PATH)/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
-    $(LOCAL_PATH)/proprietary/lib/egl/libplayback_adreno200.so:/system/lib/egl/libplayback_adreno200.so \
-    $(LOCAL_PATH)/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8960.so:/system/lib/hw/camera.msm8960.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.m7.so:/system/lib/hw/sensors.m7.so \
     $(LOCAL_PATH)/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
@@ -84,11 +77,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
     $(LOCAL_PATH)/proprietary/lib/libc2d2_a3xx.so:/system/lib/libc2d2_a3xx.so \
     $(LOCAL_PATH)/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
-    $(LOCAL_PATH)/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
-    $(LOCAL_PATH)/proprietary/lib/libllvm-a3xx.so:/system/lib/libllvm-a3xx.so \
     $(LOCAL_PATH)/proprietary/lib/libOpenCL.so:/system/lib/libOpenCL.so \
     $(LOCAL_PATH)/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-    $(LOCAL_PATH)/proprietary/lib/libsc-a3xx.so:/system/lib/libsc-a3xx.so \
     $(LOCAL_PATH)/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     $(LOCAL_PATH)/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     $(LOCAL_PATH)/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
@@ -109,6 +99,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     $(LOCAL_PATH)/proprietary/lib/libimu.so:/system/lib/libimu.so \
     $(LOCAL_PATH)/proprietary/lib/libwriteback.so:/system/lib/libwriteback.so
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLESv2_adreno.so:/system/vendor/lib/egl/libGLESv2_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:/system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/egl/libq3dtools_adreno.so:/system/vendor/lib/egl/libq3dtools_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libllvm-a3xx.so:/system/vendor/lib/libllvm-a3xx.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
