@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libqmi_csi.so:/system/lib/libqmi_csi.so \
     $(LOCAL_PATH)/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
     $(LOCAL_PATH)/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
-    $(LOCAL_PATH)/proprietary/lib/libhtc_rilhook.so:/system/lib/libhtc_rilhook.so \
     $(LOCAL_PATH)/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     $(LOCAL_PATH)/proprietary/lib/libimu.so:/system/lib/libimu.so \
     $(LOCAL_PATH)/proprietary/lib/libwriteback.so:/system/lib/libwriteback.so
