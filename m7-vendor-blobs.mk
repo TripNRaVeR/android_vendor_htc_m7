@@ -201,5 +201,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
-    $(LOCAL_PATH)/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
+    $(LOCAL_PATH)/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so
