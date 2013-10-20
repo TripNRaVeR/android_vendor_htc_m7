@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_vd6869_zoe.so:/system/lib/libchromatix_vd6869_zoe.so \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_vd6869_zsl.so:/system/lib/libchromatix_vd6869_zsl.so \
     $(LOCAL_PATH)/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
+    $(LOCAL_PATH)/proprietary/lib/libgeofence.so:/system/lib/libgeofence.so \
     $(LOCAL_PATH)/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
     $(LOCAL_PATH)/proprietary/lib/libHTC_DIS.so:/system/lib/libHTC_DIS.so \
     $(LOCAL_PATH)/proprietary/lib/libimage-jpeg-dec-omx-comp.so:/system/lib/libimage-jpeg-dec-omx-comp.so \
