@@ -110,7 +110,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libllvm-a3xx.so:/system/vendor/lib/libllvm-a3xx.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so
+    $(LOCAL_PATH)/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
