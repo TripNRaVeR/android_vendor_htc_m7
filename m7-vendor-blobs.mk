@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     $(LOCAL_PATH)/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
     $(LOCAL_PATH)/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
+    $(LOCAL_PATH)/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
     $(LOCAL_PATH)/proprietary/lib/libmllite.so:/system/lib/libmllite.so \
     $(LOCAL_PATH)/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
     $(LOCAL_PATH)/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
