@@ -76,7 +76,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     $(LOCAL_PATH)/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     $(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
-    $(LOCAL_PATH)/proprietary/lib/libc2d2_a3xx.so:/system/lib/libc2d2_a3xx.so \
+    $(LOCAL_PATH)/proprietary/lib/libc2d30.so:/system/lib/libc2d30.so \
+    $(LOCAL_PATH)/proprietary/lib/libc2d30-a3xx.so:/system/lib/libc2d30-a3xx.so \
     $(LOCAL_PATH)/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     $(LOCAL_PATH)/proprietary/lib/libOpenCL.so:/system/lib/libOpenCL.so \
     $(LOCAL_PATH)/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
