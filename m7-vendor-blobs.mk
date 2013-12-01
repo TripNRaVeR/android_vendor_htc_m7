@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/thermald:/system/bin/thermald
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8960.so:/system/lib/hw/camera.msm8960.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8960.so:/system/lib/hw/vendor-camera.msm8960.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.m7.so:/system/lib/hw/sensors.m7.so \
     $(LOCAL_PATH)/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
     $(LOCAL_PATH)/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
