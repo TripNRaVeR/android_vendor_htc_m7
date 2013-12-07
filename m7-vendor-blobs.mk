@@ -199,6 +199,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/etc/thermald.conf:/system/etc/thermald.conf
+
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/usr/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
     $(LOCAL_PATH)/proprietary/usr/keylayout/keypad_8960.kl:system/usr/keylayout/keypad_8960.kl \
     $(LOCAL_PATH)/proprietary/usr/keylayout/synaptics-rmi-touchscreen.kl:system/usr/keylayout/synaptics-rmi-touchscreen.kl
