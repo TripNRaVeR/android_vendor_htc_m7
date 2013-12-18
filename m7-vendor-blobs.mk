@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8960.so:/system/lib/hw/vendor-camera.msm8960.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.m7.so:/system/lib/hw/sensors.m7.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
     $(LOCAL_PATH)/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
     $(LOCAL_PATH)/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
     $(LOCAL_PATH)/proprietary/lib/libcsd-client.so:/system/lib/libcsd-client.so \
